@@ -5,8 +5,8 @@ All necessary changes have been made in `Dockerfile` and `docker-compose.yml` fi
 
 ## Build docker images locally
 
-`cd open-search && docker build -t opensearch-nosecurity:1.0.1 .`
-`cd opensearch-dashboard && docker build -t opensearch-dashboard-nosecurity:1.0.1 .`
+- `cd open-search && docker build -t opensearch-nosecurity:1.0.1 .`
+- `cd opensearch-dashboard && docker build -t opensearch-dashboard-nosecurity:1.0.1 .`
 
 ## Run Open Search as a single docker container
 
